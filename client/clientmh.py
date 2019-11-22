@@ -20,7 +20,7 @@ class ClientUtil:
         self.s.send(choice.encode('utf-8'))
         door = self.s.recv(1024).decode('utf-8')
         car = self.s.recv(1024).decode('utf-8')
-        print(choice, door, car)
+        # print(choice, door, car)
         return int(door), int(car)
 
     def __del__(self):

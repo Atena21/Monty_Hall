@@ -28,11 +28,10 @@ class Application:
     def start_page(self):  # portas fechadas
         self.root.destroy()
         self.root = tk.Tk()
-        print("start page")
+        # print("start page")
         self.root.geometry(WINDOW_GEOMETRY)
         self.root.title("Portas Fechadas")
         img_portasfechadas = PhotoImage (file="assets/portas.png")
-        print("start page2")
         image_portasfechadas=tk.Label(image=img_portasfechadas)
         image_portasfechadas.place(relx=0.5, rely=0.5, anchor=CENTER)
 
@@ -68,7 +67,7 @@ class Application:
         image_portasfechadas.place(relx=0.5, rely=0.5, anchor=CENTER)
 
         # Bode
-        print(door)
+        # print(door)
         img_goat = PhotoImage(file="assets/goat.png")
         button_goat = tk.Button(image=img_goat, command="")
         self.position(button_goat, goat)
@@ -99,7 +98,6 @@ class Application:
         self.root.mainloop()
 
     def results(self, choice):
-        print("eita")
         ganhou = False
         self.root.destroy()
         self.root = tk.Tk()
@@ -198,23 +196,25 @@ class Application:
         #Botão de voltar para o início
         img_begin = PhotoImage(file="assets/again.png")
         button_begin = tk.Button(image=img_begin,
-                                 command=self.restart)
+                                 command=self.root.destroy)
         button_begin.place(relx=0.962, rely=0.058, anchor=CENTER)
 
         self.root.mainloop()
 
-    def restart(self):
-        print("restart")
-        self.root.destroy()
-        self.root = tk.Tk()
-        self.root.geometry(WINDOW_GEOMETRY)
-        self.main_screen()
+    # def restart(self):
+    #     # print("restart")
+    #     self.root.destroy()
+    #     self.root = tk.Tk()
+    #     self.root.geometry(WINDOW_GEOMETRY)
+    #     self.main_screen()
+    #     self.root.mainloop()
 
     def main_screen(self):
+
         self.root.title("Página principal")
         img_inicio= PhotoImage (file="assets/mh1.png")
         image_inicial=tk.Label(image=img_inicio)
-        image_inicial.place(relx=0.5,rely=0.5, anchor=CENTER)
+        image_inicial.place(relx=0.5, rely=0.5, anchor=CENTER)
         #Botão para iniciar o jogo
         img_start = PhotoImage(file="assets/jogar.png")
         button_start = tk.Button(

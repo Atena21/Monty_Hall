@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2eb31cc-a2dd-496b-b086-ea972efd47a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/doorselected.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/clientUtils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/montyhall-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/montyhall-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/carselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/carselected.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/goatselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/goatselected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/clientUtils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/clientmh.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/clientmh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -138,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574089931471</updated>
     </task>
+    <task id="LOCAL-00001" summary="Projeto funcionando com interface visual">
+      <created>1574401738981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574401738981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,5 +150,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto funcionando com interface visual" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto funcionando com interface visual" />
   </component>
 </project>
