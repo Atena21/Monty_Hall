@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2eb31cc-a2dd-496b-b086-ea972efd47a4" name="Default Changelist" comment="" />
+    <list default="true" id="d2eb31cc-a2dd-496b-b086-ea972efd47a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/doorselected.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/clientUtils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/montyhall-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/montyhall-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/carselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/carselected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/goatselected.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/goatselected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/clientmh.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/clientmh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +27,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TnJTGsWPwTfnbDFjxtDAjgt9E7" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Inteligência Artificial/VE 2019/Letter" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/jokenpo" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,8 +122,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.clientmh" />
         <item itemvalue="Python.servermh" />
+        <item itemvalue="Python.clientmh" />
       </list>
     </recent_temporary>
   </component>
@@ -122,5 +139,16 @@
       <updated>1574089931471</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
