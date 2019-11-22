@@ -172,7 +172,7 @@ class Application:
         # Botão de voltar para o início
         img_begin = PhotoImage(file="assets/again.png")
         button_begin = tk.Button(image=img_begin,
-                                 command=self.restart)
+                                 command=self.root.destroy)
         button_begin.place(relx=0.962, rely=0.058, anchor=CENTER)
 
         self.root.mainloop()

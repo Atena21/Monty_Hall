@@ -1,8 +1,8 @@
 import socket
 import threading
-from server.server_utils import *
+from server_utils import *
 
-HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+HOST = '172.16.35.115'  # Standard loopback interface address (localhost)
 PORT = 65426  # Port to listen on (non-privileged ports are > 1023)
 MAX_CLIENTS = 100  # Max number of simultaneous clients
 
